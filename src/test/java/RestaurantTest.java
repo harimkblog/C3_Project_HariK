@@ -42,6 +42,7 @@ class RestaurantTest {
         assertFalse(r.isRestaurantOpen());
     }
 
+    @Test
     public void calculate_order_cost_test(){
         //WRITE UNIT TEST CASE HERE
         setRestaurant();
