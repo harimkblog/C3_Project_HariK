@@ -45,11 +45,11 @@ public class Restaurant {
 
     public int calcOrderCost(List<String> items) {
         int cost = 0;
-        /**for(String item: items){
+        for(String item: items){
             Item it = findItemByName(item);
             if(it == null) throw new RuntimeException("Unexpected menu item");
             cost += it.getPrice();
-        }**/
+        }
         return cost;
     }
     
